@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A219EF59206A29D3000CE656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF58206A29D3000CE656 /* AppDelegate.swift */; };
+		A219EF5B206A29D3000CE656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF5A206A29D3000CE656 /* ViewController.swift */; };
+		A219EF5E206A29D3000CE656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219EF5C206A29D3000CE656 /* Main.storyboard */; };
+		A219EF60206A29D3000CE656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A219EF5F206A29D3000CE656 /* Assets.xcassets */; };
+		A219EF63206A29D3000CE656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */; };
+		A219EF6E206A29D3000CE656 /* sqliteWithTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF6D206A29D3000CE656 /* sqliteWithTableViewTests.swift */; };
+		A219EF79206A29D3000CE656 /* sqliteWithTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF78206A29D3000CE656 /* sqliteWithTableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A219EF6A206A29D3000CE656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A219EF4D206A29D3000CE656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A219EF54206A29D3000CE656;
+			remoteInfo = sqliteWithTableView;
+		};
+		A219EF75206A29D3000CE656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A219EF4D206A29D3000CE656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A219EF54206A29D3000CE656;
+			remoteInfo = sqliteWithTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A219EF55206A29D3000CE656 /* sqliteWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqliteWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A219EF58206A29D3000CE656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A219EF5A206A29D3000CE656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A219EF5D206A29D3000CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A219EF5F206A29D3000CE656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A219EF62206A29D3000CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A219EF64206A29D3000CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A219EF69206A29D3000CE656 /* sqliteWithTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteWithTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A219EF6D206A29D3000CE656 /* sqliteWithTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqliteWithTableViewTests.swift; sourceTree = "<group>"; };
+		A219EF6F206A29D3000CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A219EF74206A29D3000CE656 /* sqliteWithTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteWithTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A219EF78206A29D3000CE656 /* sqliteWithTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqliteWithTableViewUITests.swift; sourceTree = "<group>"; };
+		A219EF7A206A29D3000CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A219EF52206A29D3000CE656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF66206A29D3000CE656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF71206A29D3000CE656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A219EF4C206A29D3000CE656 = {
+			isa = PBXGroup;
+			children = (
+				A219EF57206A29D3000CE656 /* sqliteWithTableView */,
+				A219EF6C206A29D3000CE656 /* sqliteWithTableViewTests */,
+				A219EF77206A29D3000CE656 /* sqliteWithTableViewUITests */,
+				A219EF56206A29D3000CE656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A219EF56206A29D3000CE656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A219EF55206A29D3000CE656 /* sqliteWithTableView.app */,
+				A219EF69206A29D3000CE656 /* sqliteWithTableViewTests.xctest */,
+				A219EF74206A29D3000CE656 /* sqliteWithTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A219EF57206A29D3000CE656 /* sqliteWithTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A219EF58206A29D3000CE656 /* AppDelegate.swift */,
+				A219EF5A206A29D3000CE656 /* ViewController.swift */,
+				A219EF5C206A29D3000CE656 /* Main.storyboard */,
+				A219EF5F206A29D3000CE656 /* Assets.xcassets */,
+				A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */,
+				A219EF64206A29D3000CE656 /* Info.plist */,
+			);
+			path = sqliteWithTableView;
+			sourceTree = "<group>";
+		};
+		A219EF6C206A29D3000CE656 /* sqliteWithTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A219EF6D206A29D3000CE656 /* sqliteWithTableViewTests.swift */,
+				A219EF6F206A29D3000CE656 /* Info.plist */,
+			);
+			path = sqliteWithTableViewTests;
+			sourceTree = "<group>";
+		};
+		A219EF77206A29D3000CE656 /* sqliteWithTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A219EF78206A29D3000CE656 /* sqliteWithTableViewUITests.swift */,
+				A219EF7A206A29D3000CE656 /* Info.plist */,
+			);
+			path = sqliteWithTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A219EF54206A29D3000CE656 /* sqliteWithTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A219EF7D206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableView" */;
+			buildPhases = (
+				A219EF51206A29D3000CE656 /* Sources */,
+				A219EF52206A29D3000CE656 /* Frameworks */,
+				A219EF53206A29D3000CE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqliteWithTableView;
+			productName = sqliteWithTableView;
+			productReference = A219EF55206A29D3000CE656 /* sqliteWithTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A219EF68206A29D3000CE656 /* sqliteWithTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A219EF80206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableViewTests" */;
+			buildPhases = (
+				A219EF65206A29D3000CE656 /* Sources */,
+				A219EF66206A29D3000CE656 /* Frameworks */,
+				A219EF67206A29D3000CE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A219EF6B206A29D3000CE656 /* PBXTargetDependency */,
+			);
+			name = sqliteWithTableViewTests;
+			productName = sqliteWithTableViewTests;
+			productReference = A219EF69206A29D3000CE656 /* sqliteWithTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A219EF73206A29D3000CE656 /* sqliteWithTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A219EF83206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableViewUITests" */;
+			buildPhases = (
+				A219EF70206A29D3000CE656 /* Sources */,
+				A219EF71206A29D3000CE656 /* Frameworks */,
+				A219EF72206A29D3000CE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A219EF76206A29D3000CE656 /* PBXTargetDependency */,
+			);
+			name = sqliteWithTableViewUITests;
+			productName = sqliteWithTableViewUITests;
+			productReference = A219EF74206A29D3000CE656 /* sqliteWithTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A219EF4D206A29D3000CE656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DASLAB;
+				TargetAttributes = {
+					A219EF54206A29D3000CE656 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A219EF68206A29D3000CE656 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A219EF54206A29D3000CE656;
+					};
+					A219EF73206A29D3000CE656 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A219EF54206A29D3000CE656;
+					};
+				};
+			};
+			buildConfigurationList = A219EF50206A29D3000CE656 /* Build configuration list for PBXProject "sqliteWithTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A219EF4C206A29D3000CE656;
+			productRefGroup = A219EF56206A29D3000CE656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A219EF54206A29D3000CE656 /* sqliteWithTableView */,
+				A219EF68206A29D3000CE656 /* sqliteWithTableViewTests */,
+				A219EF73206A29D3000CE656 /* sqliteWithTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A219EF53206A29D3000CE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219EF63206A29D3000CE656 /* LaunchScreen.storyboard in Resources */,
+				A219EF60206A29D3000CE656 /* Assets.xcassets in Resources */,
+				A219EF5E206A29D3000CE656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF67206A29D3000CE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF72206A29D3000CE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A219EF51206A29D3000CE656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219EF5B206A29D3000CE656 /* ViewController.swift in Sources */,
+				A219EF59206A29D3000CE656 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF65206A29D3000CE656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219EF6E206A29D3000CE656 /* sqliteWithTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A219EF70206A29D3000CE656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A219EF79206A29D3000CE656 /* sqliteWithTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A219EF6B206A29D3000CE656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A219EF54206A29D3000CE656 /* sqliteWithTableView */;
+			targetProxy = A219EF6A206A29D3000CE656 /* PBXContainerItemProxy */;
+		};
+		A219EF76206A29D3000CE656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A219EF54206A29D3000CE656 /* sqliteWithTableView */;
+			targetProxy = A219EF75206A29D3000CE656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A219EF5C206A29D3000CE656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219EF5D206A29D3000CE656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A219EF62206A29D3000CE656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A219EF7B206A29D3000CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A219EF7C206A29D3000CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A219EF7E206A29D3000CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A219EF7F206A29D3000CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A219EF81206A29D3000CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqliteWithTableView.app/sqliteWithTableView";
+			};
+			name = Debug;
+		};
+		A219EF82206A29D3000CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqliteWithTableView.app/sqliteWithTableView";
+			};
+			name = Release;
+		};
+		A219EF84206A29D3000CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqliteWithTableView;
+			};
+			name = Debug;
+		};
+		A219EF85206A29D3000CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqliteWithTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IT.sqliteWithTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqliteWithTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A219EF50206A29D3000CE656 /* Build configuration list for PBXProject "sqliteWithTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219EF7B206A29D3000CE656 /* Debug */,
+				A219EF7C206A29D3000CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A219EF7D206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219EF7E206A29D3000CE656 /* Debug */,
+				A219EF7F206A29D3000CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A219EF80206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219EF81206A29D3000CE656 /* Debug */,
+				A219EF82206A29D3000CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A219EF83206A29D3000CE656 /* Build configuration list for PBXNativeTarget "sqliteWithTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A219EF84206A29D3000CE656 /* Debug */,
+				A219EF85206A29D3000CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A219EF4D206A29D3000CE656 /* Project object */;
+}
