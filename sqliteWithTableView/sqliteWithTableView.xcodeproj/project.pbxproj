@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A219EF59206A29D3000CE656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF58206A29D3000CE656 /* AppDelegate.swift */; };
-		A219EF5B206A29D3000CE656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF5A206A29D3000CE656 /* ViewController.swift */; };
-		A219EF5E206A29D3000CE656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219EF5C206A29D3000CE656 /* Main.storyboard */; };
-		A219EF60206A29D3000CE656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A219EF5F206A29D3000CE656 /* Assets.xcassets */; };
 		A219EF63206A29D3000CE656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */; };
 		A219EF6E206A29D3000CE656 /* sqliteWithTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF6D206A29D3000CE656 /* sqliteWithTableViewTests.swift */; };
 		A219EF79206A29D3000CE656 /* sqliteWithTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF78206A29D3000CE656 /* sqliteWithTableViewUITests.swift */; };
+		A219EF8F206A2A9B000CE656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A219EF86206A2A9A000CE656 /* Assets.xcassets */; };
+		A219EF90206A2A9B000CE656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF87206A2A9A000CE656 /* ViewController.swift */; };
+		A219EF91206A2A9B000CE656 /* DesignBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF89206A2A9A000CE656 /* DesignBtn.swift */; };
+		A219EF92206A2A9B000CE656 /* DesignTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF8A206A2A9A000CE656 /* DesignTF.swift */; };
+		A219EF93206A2A9B000CE656 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF8B206A2A9A000CE656 /* DesignView.swift */; };
+		A219EF94206A2A9B000CE656 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF8C206A2A9B000CE656 /* ContactTableViewController.swift */; };
+		A219EF95206A2A9B000CE656 /* TFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A219EF8D206A2A9B000CE656 /* TFTableViewCell.swift */; };
+		A219EF96206A2A9B000CE656 /* TFTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A219EF8E206A2A9B000CE656 /* TFTableViewCell.xib */; };
+		A219EF98206A2AAC000CE656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A219EF97206A2AAC000CE656 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +42,6 @@
 /* Begin PBXFileReference section */
 		A219EF55206A29D3000CE656 /* sqliteWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqliteWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A219EF58206A29D3000CE656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A219EF5A206A29D3000CE656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A219EF5D206A29D3000CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A219EF5F206A29D3000CE656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A219EF62206A29D3000CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A219EF64206A29D3000CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A219EF69206A29D3000CE656 /* sqliteWithTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteWithTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +50,15 @@
 		A219EF74206A29D3000CE656 /* sqliteWithTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqliteWithTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A219EF78206A29D3000CE656 /* sqliteWithTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqliteWithTableViewUITests.swift; sourceTree = "<group>"; };
 		A219EF7A206A29D3000CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A219EF86206A2A9A000CE656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A219EF87206A2A9A000CE656 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A219EF89206A2A9A000CE656 /* DesignBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignBtn.swift; sourceTree = "<group>"; };
+		A219EF8A206A2A9A000CE656 /* DesignTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTF.swift; sourceTree = "<group>"; };
+		A219EF8B206A2A9A000CE656 /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		A219EF8C206A2A9B000CE656 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		A219EF8D206A2A9B000CE656 /* TFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFTableViewCell.swift; sourceTree = "<group>"; };
+		A219EF8E206A2A9B000CE656 /* TFTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TFTableViewCell.xib; sourceTree = "<group>"; };
+		A219EF97206A2AAC000CE656 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				A219EF58206A29D3000CE656 /* AppDelegate.swift */,
-				A219EF5A206A29D3000CE656 /* ViewController.swift */,
-				A219EF5C206A29D3000CE656 /* Main.storyboard */,
-				A219EF5F206A29D3000CE656 /* Assets.xcassets */,
+				A219EF87206A2A9A000CE656 /* ViewController.swift */,
+				A219EF97206A2AAC000CE656 /* Main.storyboard */,
+				A219EF8D206A2A9B000CE656 /* TFTableViewCell.swift */,
+				A219EF8E206A2A9B000CE656 /* TFTableViewCell.xib */,
+				A219EF86206A2A9A000CE656 /* Assets.xcassets */,
+				A219EF8C206A2A9B000CE656 /* ContactTableViewController.swift */,
 				A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */,
 				A219EF64206A29D3000CE656 /* Info.plist */,
+				A219EF88206A2A9A000CE656 /* DesignFiles */,
 			);
 			path = sqliteWithTableView;
 			sourceTree = "<group>";
@@ -123,6 +139,16 @@
 				A219EF7A206A29D3000CE656 /* Info.plist */,
 			);
 			path = sqliteWithTableViewUITests;
+			sourceTree = "<group>";
+		};
+		A219EF88206A2A9A000CE656 /* DesignFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A219EF89206A2A9A000CE656 /* DesignBtn.swift */,
+				A219EF8A206A2A9A000CE656 /* DesignTF.swift */,
+				A219EF8B206A2A9A000CE656 /* DesignView.swift */,
+			);
+			path = DesignFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A219EF8F206A2A9B000CE656 /* Assets.xcassets in Resources */,
+				A219EF96206A2A9B000CE656 /* TFTableViewCell.xib in Resources */,
 				A219EF63206A29D3000CE656 /* LaunchScreen.storyboard in Resources */,
-				A219EF60206A29D3000CE656 /* Assets.xcassets in Resources */,
-				A219EF5E206A29D3000CE656 /* Main.storyboard in Resources */,
+				A219EF98206A2AAC000CE656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A219EF5B206A29D3000CE656 /* ViewController.swift in Sources */,
+				A219EF95206A2A9B000CE656 /* TFTableViewCell.swift in Sources */,
+				A219EF91206A2A9B000CE656 /* DesignBtn.swift in Sources */,
+				A219EF92206A2A9B000CE656 /* DesignTF.swift in Sources */,
+				A219EF94206A2A9B000CE656 /* ContactTableViewController.swift in Sources */,
+				A219EF93206A2A9B000CE656 /* DesignView.swift in Sources */,
+				A219EF90206A2A9B000CE656 /* ViewController.swift in Sources */,
 				A219EF59206A29D3000CE656 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A219EF5C206A29D3000CE656 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A219EF5D206A29D3000CE656 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A219EF61206A29D3000CE656 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
